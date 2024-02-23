@@ -7,3 +7,5 @@ pnpm test -- --watch=false
 # add command is deprecated and not creating pre-push file
 # This file is create by scratch and copy pasting the content of pre-commit, but
 # files are not executable by default. Run command chmod ug+x .husky/* to change that
+
+# Should also use terminal with node version at least 18 to make tests successfully run
