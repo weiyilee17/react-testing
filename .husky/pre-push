@@ -2,3 +2,8 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 pnpm test -- --watchAll=false
+
+# command   pnpx husky add .husky/pre-push "pnpm test -- --watchAll=false" says
+# add command is deprecated and not creating pre-push file
+# This file is create by scratch and copy pasting the content of pre-commit, but
+# files are not executable by default. Run command chmod ug+x .husky/* to change that
