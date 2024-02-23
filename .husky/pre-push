@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-pnpm test --watch=false
+pnpm test -- --watch=false
 
 # command   pnpx husky add .husky/pre-push "pnpm test -- --watchAll=false" says
 # add command is deprecated and not creating pre-push file
